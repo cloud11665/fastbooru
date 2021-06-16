@@ -1,14 +1,26 @@
 # fastbooru
-Because all other cli downloaders suck...
 
-usage: fastbooru [options] [tags] [directory]
+
+
+```sh
+[anon@computer ~] $ fastbooru --help
+
+usage: fastbooru [options] {tags} {directory}
+
+Fastest gelbooru image downloader.
+Made by Cloud11665, under the GNU gplv3 license.
+https://github.com/cloud11665/fastbooru
 
 optional arguments:
-        -e --explicit show explicit images.
-        -h --help     show this message.
-        -n            number of images. (defaults to 10)
-        -c --config   use a custom config file (defaults to ~/.fastbooru)
-        -a --api      use a custom api key (defaults to anon)
-        -w --workers  use a custom amount of download workers (default to `nproc`*4)
-        -s --silent
-        -v --verbose
+  -h, --help         show this help message and exit
+  -e, --explicit     show explicit images
+  -n, --number INT   number of images
+  -a, --api STR      use a custom api key
+  -w, --workers INT  use a custom amount of download workers
+```
+
+
+## installation
+```sh
+pip install git+https://github.com/Cloud11665/fastbooru.git
+```
