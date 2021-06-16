@@ -21,6 +21,11 @@ optional arguments:
 
 
 ## installation
+stable
 ```sh
-pip install git+https://github.com/Cloud11665/fastbooru.git
+pip install fastbooru
+```
+latest
+```sh
+pip install git+https://github.com/Cloud11665/fastbooru.git@master
 ```
