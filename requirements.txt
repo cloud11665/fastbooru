@@ -1,0 +1,13 @@
+appdirs==1.4.4
+astor==0.8.1
+certifi==2021.5.30
+chardet==4.0.0
+colorama==0.4.4
+colorlog==5.0.1
+funcparserlib==0.3.6
+hy==1.0a1+170.g9cee82dc
+idna==2.10
+requests==2.25.1
+rply==0.7.8
+toolz==0.11.1
+urllib3==1.26.5
