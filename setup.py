@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
 	name = "fastbooru",
-	version= "0.1.0",
+	version= "0.1.1",
 	description = "Because all other cli downloaders suck...",
 	long_description = open("README.md", "r").read(),
 	long_description_content_type = "text/markdown",
