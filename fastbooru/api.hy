@@ -7,7 +7,7 @@
         [subprocess [check-output]]
         [functools [partial]])
 (import requests)
-(import [meta [HAS_CURL :as curl?]])
+(import [fastbooru.meta [HAS_CURL :as curl?]])
 
 (import [hy.contrib.pprint [*]])
 

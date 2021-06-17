@@ -5,7 +5,7 @@ chardet==4.0.0
 colorama==0.4.4
 colorlog==5.0.1
 funcparserlib==0.3.6
-git+http://github.com/hylang/hy@c0fb5486665de12e8a5d31b03b3e6b836cbb7b31#egg=hy
+git+https://github.com/hylang/hy@c0fb5486665de12e8a5d31b03b3e6b836cbb7b31#egg=hy
 idna==2.10
 requests==2.25.1
 rply==0.7.8

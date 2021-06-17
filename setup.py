@@ -13,10 +13,10 @@ setuptools.setup(
 	install_requires = setuptools.find_packages(),
 	license= "gnu GPL-3.0",
 	include_package_data = True,
-	package_data = {"fastbooru": ["*.hy"]},
+	package_data = {"": ["*.hy"]},
 	entry_points = {
 		"console_scripts": [
-			"fastbooru = fastbooru:main"
+			"fastbooru = fastbooru.runner:_hook"
 		]
 	},
 	classifiers=[

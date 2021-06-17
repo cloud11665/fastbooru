@@ -15,8 +15,8 @@
 (import [toolz [*]]
         [colorlog [ColoredFormatter]])
 
-(import [meta [MetaVarlessFormatter]])
-(import [api [*]])
+(import [fastbooru.meta [MetaVarlessFormatter]])
+(import [fastbooru.api [*]])
 
 
 
