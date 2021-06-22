@@ -1,6 +1,8 @@
 # fastbooru
 
+pip installation may fail due my lack of deep understanding of hy modules.
 
+will try to migrate from a non-official build of hy to a more stable one. this may fix it.
 
 ```sh
 [anon@computer ~] $ fastbooru --help
